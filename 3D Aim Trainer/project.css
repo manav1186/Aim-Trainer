@@ -1,0 +1,108 @@
+
+
+@import url(https://fonts.googleapis.com/css?family=Exo+2:200i);
+
+
+
+.sidediv {
+font-size:25px ;
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(41, 15, 189);
+ overflow: auto;
+ outline: solid;
+ background-image: none;
+}
+.sidediv h1{
+  font-size: 25px;
+  color: crimson;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: solid underline;
+  
+
+}
+.sidediv p{
+  color: aliceblue;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+.upperdiv{
+height: 200px ;
+border: double;
+position: relative;
+
+  padding: 20px;
+  text-align: center;
+  background-color: rgb(211, 113, 178);
+  background-image: url(manav1.jpg);
+}
+.upperdiv h1{
+color:white;
+font-family: showcard 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 100px;
+font-family: Exo 2;
+font-style: italic;
+text-align: center;
+text-overflow: ellipsis;
+text-shadow: #f44336;
+text-decoration: solid underline;
+text-underline-position: auto;
+text-shadow: 2px 2px 4px #130c7979;
+}
+.upperdiv p {
+  color:white;
+  font-family: showcard 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 50px;
+  font-style: italic;
+}
+
+ .content :hover ::selection{
+  
+  color:rgb(90, 13, 13);
+
+  padding: 14px 25px;
+  text-align: center;
+  align:center;
+  text-decoration: underline;
+
+
+
+  display: inline-block;
+}
+.content a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.content a:hover, a:active {
+  background-color: red;
+
+
+
+}
+
+.content {
+  margin-left: 200px;
+  padding-left: 20px;
+  background-color: rgb(20, 200, 255);
+  
+  border: double;
+  
+ left: -6px;
+position: relative;
+height: 100%;
+width: 1285px;
+background-image: url(pubg1.jpg);
+}
+.content h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(199, 103, 119);
+}
